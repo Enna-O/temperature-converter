@@ -1,0 +1,30 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+.temperature-container{
+  background-color: #fdf0f0;
+  color:dodgerblue ;
+  width: 50%;
+  height: 100vh;
+}
+input[type=number] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 4px;
+    display: inline-block;
+    border: 2px solid black; 
+    
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  h1{
+    text-align: center;
+  }
+  label{
+    font-size: 18px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
